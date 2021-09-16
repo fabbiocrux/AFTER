@@ -1,0 +1,260 @@
+---
+title: "UE 505 -  Exploiter durablement les ressources"
+subtitle: "Licence AFTER"
+author: "Fabio Cruz & Fedoua Kasmi"
+institute: "Université de Lorraine --- ERPI"
+date: "2021/01/21"
+output:
+  xaringan::moon_reader:
+    css: ["assets/xaringan-themer.css", "assets/AFTER.css"]
+    seal: true
+    nature:
+#      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      navigation:
+        scroll: false # disable slide transitions by scrolling
+always_allow_html: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+
+# Libraries & Setup
+library(here)
+source(here("Setup.R"))
+
+# Link for the Figures
+URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
+
+#library(xaringanBuilder)
+#build_pdf("index.Rmd")
+
+# xaringanExtra
+#xaringanExtra::use_panelset()
+#xaringanExtra::use_share_again()
+
+```
+
+
+
+
+class: title-slide, left, bottom, 
+
+
+```{r, out.width = '250px', fig.align='right'}
+knitr::include_graphics(paste0(URL, 'Logos/ERPI/UL-ERPI.png'))
+```
+
+
+
+.Huge[`r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`]
+
+ `r rmarkdown::metadata$subtitle`
+
+ `r rmarkdown::metadata$institution`
+
+ `r rmarkdown::metadata$author`
+
+`r fa("map-marker-alt", fill = "steelblue")` `r rmarkdown::metadata$date` `r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$date`
+
+---
+
+
+## Global goal:
+
+The main goal of the module is to co-create a possible eco-responsible strategy for your tieurs-lieux
+understand the basic elements of the ``
+
+Le but principal du module sera la co-création d’une stratégie éco-responsable pour votre tiers-lieux 
+
+### Session Friday 17/09:
+
+- **Introduction to the module and ans some definitions**
+
+`r emo::ji("calendar")`  Sept 17, 2021 <br>
+`r emo::ji("clock8")`  09:00 - 12:00 <br>
+`r emo::ji("round_pushpin")`  LF2L <br>
+
+
+
+| Time          | Activity                |
+|:--------------|:------------------------|
+| 09:00 - 10:00 | Introduction to module: <br> - Defining expectations   |
+| 10:15 - 10:30 | *Break* `r emo::ji("apple")`        |
+| 10:30 - 12:00 |  Visit Octroi and presentation of Practical project |
+
+---
+
+class: middle
+
+# What do you  the notion of "Eco-responsable" ?
+
+
+---
+
+class: bottom center
+
+.bg-yellow.Huge[ Is recycling always "Eco-responsable" ? ]
+
+---
+
+class: bottom center
+
+
+.bg-yellow.Huge[Is the label *Bio* always "Eco-responsable" ? ]
+
+---
+
+# Goal of the day
+
+1. Clarification of the real issues. 
+
+2. Take the time on the key definitions 
+
+---
+
+class: middle, left
+background-image: url(`r paste0(URL, 'Climate-change/IPCC-Climate-change.jpeg')`)
+background-position: right
+background-size: contain
+
+
+# What are the <br> Societal Challegues ?
+
+
+.footnote[Source: Intergovermental pannel on Climate change https://www.ipcc.ch/ ]
+
+
+---
+class: middle, left
+background-image: url(`r paste0(URL, 'Climate-change/IPCC-cumulative-temperature.png')`)
+background-position: right
+background-size: contain
+
+
+## Climate change 
+
+
+.pull-left[
+- Global warming estimations
+- 6000 scientific references
+- Awareness of the impact of human activity
+- With 2°C, many ecosystems (corals) will disappear
+]
+
+.pull-down[
+**We need to find ways for meeting  the needs of all people <br> within the means (boundaries) of the living planet.** 
+]
+
+
+
+.footnote[Source: Intergovermental pannel on Climate change https://www.ipcc.ch/ ]
+
+---
+
+class: middle, left
+background-image: url(`r paste0(URL, 'Climate-change/Emisions/Emissions-by-sector-00.png')`)
+background-position: right
+background-size: contain
+
+
+## Where do global <br> greenhouse gas <br> emissions come from?
+
+- Towards a neutral climate 
+- Improvements in sector sector counts
+
+
+.pull-left[Source: Hannah Ritchie and Max Roser (2020) -<br> "CO₂ and Greenhouse Gas Emissions". <br>
+Published online at OurWorldInData.org. 'https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions' ]
+
+---
+
+class: middle, center
+
+.huge.bg-orange[Is Climate change the most important societal issue?]
+
+
+---
+class: middle, left
+background-image: url(`r paste0(URL, 'Doughnut/Doughnut-00.png')`)
+background-position: right
+background-size: contain
+
+##  Planetary limits
+
+.pull-left[
+>Transgressing one or more planetary boundaries may be deleterious or even catastrophic due to the risk of crossing thresholds that will trigger non-linear, abrupt environmental change within continental- to planetary-scale systems. 
+
+<br>
+
+O’Neill, D.W., Fanning, A.L., Lamb, W.F., Steinberger, J.K., 2018. A good life for all within planetary boundaries. Nat. Sustain. 1, 88–95. https://doi.org/10.1038/s41893-018-0021-4
+
+]
+
+
+---
+
+class: middle, left
+background-image: url(`r paste0(URL, 'Doughnut/Planetary-boundaries-00.png')`)
+background-position: right
+background-size: contain
+
+##  Planetary limits
+
+
+.pull-left[
+O’Neill, D. W., Fanning, A. L., Lamb, W. F., & Steinberger, J. K. (2018). A good life for all within planetary boundaries. Nature sustainability, 1(2), 88-95. More details: https://goodlife.leeds.ac.uk .
+]
+
+
+
+---
+class: middle 
+
+#### .center.bg-green[How to connect the Tiers-lieux with this societal issues?]
+
+- What we understand by tiers-lieux ecoresponsable?
+
+
+---
+class: middle
+
+
+
+
+
+# References
+
+
+Abassi, L. J., & Gonzalez, C. (2017). Le consommateur face à l’écologie: indifférent, réactant ou sensible? In 33ème congrès de l'association française du Marketing. 
+
+Acquier, Aurélien; Aggeri, Franck (2015) Une généalogie de la pensée managériale sur la RSE. In:Revue Française de Gestion, vol.41, n°253, p.387–413. DOI: 10.3166/RFG.180.131-157. 
+
+Balas, Nicolas; Roussey, Clara; Palpacuer, Florence (2015) La RSE, nouveau terrain pour de nouvelles formes de stratégies politiques. In : Revue française de gestion, vol. 41, n° 252, p. 145–160. DOI: 10.3166/rfg.252.145-160. 
+
+Berkowitz, Heloise (2016) Les méta-organisations rendent-elles performatif le développement durable ? Stratégies collectives dans le secteur pétrolier. Unpublished. 
+
+Gain, Animesh K.; Hossain, Sarwar; Benson, David; Di Baldassarre, Giuliano; Giupponi, Carlo; Huq, Nazmul (2021) Social-ecological system approaches for water resources management. In : International Journal of Sustainable Development & World Ecology, vol. 28, n° 2, p. 109–124. DOI: 10.1080/13504509.2020.1780647. 
+
+Montargot, N. (2019). Le mécenat environnemental, levier d’action d’une stratégie RSE: le cas de LEA Nature. Gestion 2000, 36(1), 37-58. 
+
+Stojanovic, Milutin (2019) Conceptualization of Ecological Management: Practice, Frameworks and Philosophy. In : Journal of Agricultural and Environmental Ethics, vol. 32, n° 3, p. 431–446. DOI: 10.1007/s10806-019-09783-2. 
+
+Wright, Christopher; Nyberg, Daniel (2017) An Inconvenient Truth: How Organizations Translate Climate Change into Business as Usual. In : Academy of Management Journal, vol. 60, n° 5, p. 1633–1661. DOI: 10.5465/amj.2015.0718. 
+
+

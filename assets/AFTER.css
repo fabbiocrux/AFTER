@@ -1,0 +1,27 @@
+
+/*************************
+  Custom classes 
+**************************/
+/* use to position text at the bottom */
+.pull-down {
+  position: absolute;
+  bottom: 50px;
+}
+
+.pull-left-2 {
+  float: left;
+  width: 60%;
+}
+.pull-right-1 {
+  float: right;
+  width: 36%;
+}
+
+.pull-left-1 {
+  float: left;
+  width: 36%;
+}
+.pull-right-2 {
+  float: right;
+  width: 60%;
+}
