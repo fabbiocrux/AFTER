@@ -12,7 +12,7 @@ style_duo_accent(
    inverse_header_color = "#FFFFFF",
    base_font_size = "18px",
    title_slide_background_color = "#FFFFFF",
-   title_slide_background_image = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Logos/LF2L/LF2L-Horizontal.jpg",
+   title_slide_background_image = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/AFTER/Banner.jpg",
    title_slide_background_size = "50%",
    title_slide_background_position = "50% 15%",
    #text_font_family = 'Trebuchet-MS',
