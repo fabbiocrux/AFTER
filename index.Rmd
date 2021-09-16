@@ -55,14 +55,8 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 class: title-slide, left, bottom, 
 
-
-```{r, out.width = '250px', fig.align='right'}
-knitr::include_graphics(paste0(URL, 'Logos/ERPI/UL-ERPI.png'))
-```
-
-
-
 .Huge[`r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`]
+
 
  `r rmarkdown::metadata$subtitle`
 
@@ -71,6 +65,11 @@ knitr::include_graphics(paste0(URL, 'Logos/ERPI/UL-ERPI.png'))
  `r rmarkdown::metadata$author`
 
 `r fa("map-marker-alt", fill = "steelblue")` `r rmarkdown::metadata$date` `r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$date`
+
+
+```{r, out.width = '250px', fig.align='left'}
+knitr::include_graphics(paste0(URL, 'Logos/ERPI/UL-ERPI.png'))
+```
 
 ---
 
@@ -102,21 +101,50 @@ Le but principal du module sera la co-création d’une stratégie éco-responsa
 
 class: middle
 
-# What do you  the notion of "Eco-responsable" ?
+# What do you mean by "Eco-responsable" ?
 
 
 ---
 
-class: bottom center
+class: middle center
 
-.bg-yellow.Huge[ Is recycling always "Eco-responsable" ? ]
+```{r, out.width = "30%",}
+knitr::include_graphics('https://source.unsplash.com/LctoBGY6cR8/640x960')
+```
+
+
+Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/photos/LctoBGY6cR8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+.bg-yellow.Huge[ Is recycling always "Eco-Responsible" ? ]
+
 
 ---
 
-class: bottom center
+class: middle center
+
+```{r, out.width = '750px', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Eco-labels/Gorton2021.png'))
+```
+
+.pull-down[
+Gorton, M., Tocco, B., Yeh, C.H., Hartmann, M., 2021. What determines consumers’ use of eco-labels? Taking a close look at label trust. Ecol. Econ. 189. https://doi.org/10.1016/j.ecolecon.2021.107173
 
 
-.bg-yellow.Huge[Is the label *Bio* always "Eco-responsable" ? ]
+.bg-yellow.Huge[Is the label *Bio* always "Eco-Responsible" ? ]
+]
+---
+
+class: middle
+
+```{r, out.width = '500px', fig.align='center'}
+knitr::include_graphics('https://source.unsplash.com/x0gw9YspcR4/640x427')
+```
+
+
+Ethics here refers to the study of the normative principles of human action. It deals with questions about what is good, what is right, and what we ought to do.
+
+.bg-yellow.Huge[Is "Eco-Responsibility" an Ethical concern? ]
+]
 
 ---
 
@@ -226,7 +254,7 @@ O’Neill, D. W., Fanning, A. L., Lamb, W. F., & Steinberger, J. K. (2018). A go
 ---
 class: middle 
 
-#### .center.bg-green[How to connect the Tiers-lieux with this societal issues?]
+# .center.bg-green[How to connect the Tiers-lieux with this societal issues?]
 
 - What we understand by tiers-lieux ecoresponsable?
 
