@@ -78,7 +78,7 @@ knitr::include_graphics(paste0(URL, 'Logos/ERPI/UL-ERPI.png'))
 The main goal of the module is to co-create a possible eco-responsible strategy for your tieurs-lieux 
 
 
-### Session Friday 17/09:
+### Session 1:Friday 17/09:
 
 - **Introduction to the module and some definitions**
 
@@ -259,9 +259,7 @@ class: middle
 # How the Tiers-lieux can help?
 
 
-
-
-Tentatively “design global, manufacture local” for degrowt?
+Tentatively “design global, manufacture local” for degrowth?
 
 
 .footnote[
@@ -271,12 +269,39 @@ Benson, M.H., Craig, R.K., 2014. The End of Sustainability. Soc. Nat. Resour. 27
 ]
 
 ---
+
+class: middle
+background-image: url(`r paste0(URL, 'AFTER/Benchmarking-AFTER.svg')`)
+background-position: right
+background-size: contain
+
+# Practical activity 1
+
+```{r, out.width = '800px', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'AFTER/Seance-1/Benchmarking-AFTER.svg'))
+```
+
+
+You, W., Chen, W., Agyapong, M., Mordi, C., 2020. The business model of Do-It-Yourself (DIY) laboratories – A triple-layered perspective. Technol. Forecast. Soc. Change 159, 120205. https://doi.org/10.1016/j.techfore.2020.120205
+
+
+---
+
 class: middle
 
+# Seance 2: XX XX/XX/2021:
+
+## Gal of the seance
+
+- **Introduction to the module and some definitions**
 
 
+---
 
 
+---
+
+exclude: true
 # References
 
 
