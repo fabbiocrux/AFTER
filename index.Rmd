@@ -63,7 +63,8 @@ class: title-slide, left, bottom,
 
  `r rmarkdown::metadata$author`
 
-`r fa("map-marker-alt", fill = "steelblue")` `r rmarkdown::metadata$date` `r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$date`
+`r fa("map-marker-alt", fill = "steelblue")` LF2L 
+`r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$date`
 
 
 ```{r, out.width = '250px', fig.align='left'}
@@ -291,12 +292,12 @@ class: middle
 
 # Seance 2: XX XX/XX/2021:
 
-## Gal of the seance
+## Goal of the seance
 
 - **Introduction to the module and some definitions**
 
 
----
+
 
 
 ---
